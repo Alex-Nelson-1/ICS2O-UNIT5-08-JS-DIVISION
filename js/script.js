@@ -8,9 +8,12 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-UNIT5-08-JS-WHILE-LOOPS-DIVISION/sw.js", {
-    scope: "/ICS2O-UNIT5-08-JS-WHILE-LOOPS-DIVISION/",
-  })
+  navigator.serviceWorker.register(
+    "/ICS2O-UNIT5-08-JS-WHILE-LOOPS-DIVISION/sw.js",
+    {
+      scope: "/ICS2O-UNIT5-08-JS-WHILE-LOOPS-DIVISION/",
+    }
+  )
 }
 
 /**
